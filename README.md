@@ -9,22 +9,22 @@
 2. Place a "View" on storyboard inteface builder, and assign DGKSegmentedControl class to that view. 
 3. make outlet connection.
 
-          `@IBOutlet weak var segmentControl: DGKSegmentControl!`
+          @IBOutlet weak var segmentControl: DGKSegmentControl!
     
 4. Pass titles for your segemnts 
     
-           `override func viewDidLoad() {
+           override func viewDidLoad() {
              super.viewDidLoad()
         
              //Setup
               segmentControl.titles = ["First", "Second"] 
-            }`
+            }
     
 5. Connect IBAction with TouchUpInside option. 
 
     ![screen shot 2018-03-12 at 3 09 02 pm](https://user-images.githubusercontent.com/12591229/37276007-b82853f4-2608-11e8-8c8f-949250aff2cb.png)
 
-    `@IBAction func segmentDidChanged(_ sender: DGKSegmentControl) {
-        self.lbl.text = sender.titles[sender.selectedIndex]
-    }`
+          @IBAction func segmentDidChanged(_ sender: DGKSegmentControl) {
+                    //TODO:
+          }
     
