@@ -1,8 +1,7 @@
-# DGKSegmentedControl
-
 <p align="center"> 
 <img src="https://user-images.githubusercontent.com/12591229/36713674-ded0ca38-1bb6-11e8-8448-1e18b7d345cf.png">
 </p>
+# DGKSegmentedControl
 <p align="center"> 
 <img src="https://user-images.githubusercontent.com/12591229/37275255-c34ae2a8-2606-11e8-967f-04971706bd11.png">
 </p>
