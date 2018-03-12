@@ -14,6 +14,7 @@
 		3E7D1F0C2056761900C4AE3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E7D1F0A2056761900C4AE3F /* LaunchScreen.storyboard */; };
 		3E7D1F172056761900C4AE3F /* DGKSegmentControlDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D1F162056761900C4AE3F /* DGKSegmentControlDemoTests.swift */; };
 		3E7D1F222056761900C4AE3F /* DGKSegmentControlDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D1F212056761900C4AE3F /* DGKSegmentControlDemoUITests.swift */; };
+		3E7D1F362056798C00C4AE3F /* DGKSegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D1F352056798C00C4AE3F /* DGKSegmentControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3E7D1F1D2056761900C4AE3F /* DGKSegmentControlDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DGKSegmentControlDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E7D1F212056761900C4AE3F /* DGKSegmentControlDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DGKSegmentControlDemoUITests.swift; sourceTree = "<group>"; };
 		3E7D1F232056761900C4AE3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E7D1F352056798C00C4AE3F /* DGKSegmentControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGKSegmentControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		3E7D1EF52056761900C4AE3F = {
 			isa = PBXGroup;
 			children = (
+				3E7D1F342056798C00C4AE3F /* DGKSegmentControl */,
 				3E7D1F002056761900C4AE3F /* DGKSegmentControlDemo */,
 				3E7D1F152056761900C4AE3F /* DGKSegmentControlDemoTests */,
 				3E7D1F202056761900C4AE3F /* DGKSegmentControlDemoUITests */,
@@ -123,6 +126,15 @@
 				3E7D1F232056761900C4AE3F /* Info.plist */,
 			);
 			path = DGKSegmentControlDemoUITests;
+			sourceTree = "<group>";
+		};
+		3E7D1F342056798C00C4AE3F /* DGKSegmentControl */ = {
+			isa = PBXGroup;
+			children = (
+				3E7D1F352056798C00C4AE3F /* DGKSegmentControl.swift */,
+			);
+			name = DGKSegmentControl;
+			path = DGKSegmentControlDemo/DGKSegmentControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E7D1F362056798C00C4AE3F /* DGKSegmentControl.swift in Sources */,
 				3E7D1F042056761900C4AE3F /* ViewController.swift in Sources */,
 				3E7D1F022056761900C4AE3F /* AppDelegate.swift in Sources */,
 			);

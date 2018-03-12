@@ -10,16 +10,23 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var segmentControl: DGKSegmentControl!
+    @IBOutlet weak var lbl: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    
+    
+        //Setup
+        segmentControl.titles = ["First", "Second"]
+    
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func segmentDidChanged(_ sender: DGKSegmentControl) {
+        self.lbl.text = sender.titles[sender.selectedIndex]
     }
-
+    
 
 }
 
