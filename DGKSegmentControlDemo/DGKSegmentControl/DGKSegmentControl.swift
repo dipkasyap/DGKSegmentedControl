@@ -83,6 +83,13 @@ class DGKSegmentControl: UIControl {
         }
     }
     
+    var selectedTitle:String {
+        get{
+            return self.titles[self.selectedIndex]
+        }
+    }
+    
+    
     private func createSegments()->[UIView] {
         
         var views = [UIView]()

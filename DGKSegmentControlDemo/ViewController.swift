@@ -25,6 +25,9 @@ class ViewController: UIViewController {
     
     @IBAction func segmentDidChanged(_ sender: DGKSegmentControl) {
         self.lbl.text = sender.titles[sender.selectedIndex]
+        
+        print(sender.selectedTitle)
+        
     }
     
 
