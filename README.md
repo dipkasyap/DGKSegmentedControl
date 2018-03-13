@@ -30,6 +30,8 @@
 
           @IBAction func segmentDidChanged(_ sender: DGKSegmentControl) {
                     //TODO:
+                    //self.lbl.text = sender.titles[sender.selectedIndex]
+                     print(sender.selectedTitle)
           }
     
 
